@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "李常国 <1282128587@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/eslint-config.test.js"
+  }
+}
