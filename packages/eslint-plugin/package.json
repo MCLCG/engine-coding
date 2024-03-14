@@ -1,0 +1,35 @@
+{
+    "name": "@gg/eslint-plugin",
+    "version": "0.1.2",
+    "description": "> TODO: description",
+    "author": "李常国 <1282128587@qq.com>",
+    "homepage": "https://github.com/MCLCG/engine-coding#readme",
+    "license": "ISC",
+    "main": "lib/eslint-plugin.js",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "test": "jest",
+        "prepublishOnly": "npm run test"
+    },
+    "dependencies": {
+        "fs-extra": "^9.0.1",
+        "require-all": "^3.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.7.0",
+        "jest": "^26.6.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MCLCG/engine-coding.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MCLCG/engine-coding/issues"
+    }
+}
