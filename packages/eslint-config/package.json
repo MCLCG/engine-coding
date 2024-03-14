@@ -1,5 +1,5 @@
 {
-    "name": "eslint-config",
+    "name": "@gg/eslint-config",
     "version": "0.1.1",
     "description": "> TODO: description",
     "author": "李常国 <1282128587@qq.com>",
@@ -16,5 +16,5 @@
     "scripts": {
         "test": "node ./__tests__/eslint-config.test.js"
     },
-    "gitHead": "36a855c7f6b718be591c0e7f1ff347f88ee7e6aa"
+    "gitHead": "ce4d4fb5bf14109ea868ce563654caec76b59de2"
 }
