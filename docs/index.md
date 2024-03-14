@@ -2,7 +2,7 @@
 home: true
 title: 编码规范
 tagline: 前端编码规范工程化
-actionText: 开始111 ->
+actionText: 开始1112 ->
 actionLink: /coding/html.md
 
 features:
