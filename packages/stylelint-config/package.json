@@ -13,6 +13,9 @@
     "files": [
         "lib"
     ],
+    "scripts": {
+        "test": "jest"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/MCLCG/engine-coding.git"
@@ -26,11 +29,8 @@
         "stylelint": "^14.3.0",
         "stylelint-scss": "^4.1.0"
     },
-    "scripts": {
-        "test": "node ./__tests__/stylelint-config.test.js"
-    },
     "bugs": {
         "url": "https://github.com/MCLCG/engine-coding/issues"
     },
-    "gitHead": "ce4d4fb5bf14109ea868ce563654caec76b59de2"
+    "gitHead": "9a3390812717eddd1a746633783470e97c8c74f2"
 }
