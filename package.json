@@ -35,12 +35,6 @@
         "vuepress-plugin-one-click-copy": "^1.0.6",
         "vuepress-plugin-zooming": "^1.1.8"
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "encode-fe-lint commit-file-scan",
-            "commit-msg": "encode-fe-lint commit-msg-scan"
-        }
-    },
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org/"
