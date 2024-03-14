@@ -2,4 +2,4 @@
 . "${0%/*}/h"
 
 # 格式:feat(a): b c d setup
-npx commitlint --edit 
+npx commitlint --edit $1
