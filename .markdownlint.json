@@ -1,1 +1,3 @@
-{ "extends": "markdownlint-config-encode" }
+{
+    "extends": "./packages/markdownlint-config/index.js"
+}

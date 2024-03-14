@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "李常国 <1282128587@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/MCLCG/engine-coding#readme",
   "license": "ISC",
   "main": "lib/commitlint-config.js",
   "directories": {
@@ -18,5 +18,12 @@
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCLCG/engine-coding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MCLCG/engine-coding/issues"
   }
 }

@@ -2,28 +2,47 @@
     "name": "engine-coding",
     "version": "1.0.0",
     "description": "",
-    "private": "true",
+    "private": true,
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky install",
-        "commit": "commitlint",
+        "init": "pnpm install",
+        "commit": "commit",
         "preinstall": "npx only-allow pnpm",
         "encode-fe-lint-scan": "encode-fe-lint scan",
-        "encode-fe-lint-fix": "encode-fe-lint fix"
+        "encode-fe-lint-fix": "encode-fe-lint fix",
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs",
+        "clean": "lerna clean && rimraf node_modules",
+        "test": "lerna run test",
+        "deploy": "bash deploy.sh",
+        "publish": "lerna publish",
+        "lint:md": "markdownlint README.md",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "@commitlint/cli": "^19.1.0",
+        "@commitlint/config-conventional": "^19.1.0",
+        "@commitlint/prompt-cli": "^19.1.0",
         "encode-fe-lint": "^1.0.9",
         "husky": "^9.0.11",
-        "lerna": "^8.1.2"
+        "lerna": "^8.1.2",
+        "markdownlint": "^0.33.0",
+        "vuepress": "^1.9.10",
+        "vue-template-compiler": "^2.7.16",
+        "vuepress-plugin-one-click-copy": "^1.0.6",
+        "vuepress-plugin-zooming": "^1.1.8"
     },
     "husky": {
         "hooks": {
             "pre-commit": "encode-fe-lint commit-file-scan",
             "commit-msg": "encode-fe-lint commit-msg-scan"
         }
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
     }
 }
