@@ -1,19 +1,20 @@
 {
-  "name": "eslint-config",
-  "version": "0.1.0",
-  "description": "> TODO: description",
-  "author": "李常国 <1282128587@qq.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/eslint-config.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "node ./__tests__/eslint-config.test.js"
-  }
+    "name": "eslint-config",
+    "version": "0.1.0",
+    "description": "> TODO: description",
+    "author": "李常国 <1282128587@qq.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "lib/eslint-config.js",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "test": "node ./__tests__/eslint-config.test.js"
+    },
+    "gitHead": "36a855c7f6b718be591c0e7f1ff347f88ee7e6aa"
 }
