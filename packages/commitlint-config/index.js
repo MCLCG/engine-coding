@@ -1,3 +1,5 @@
+console.log('commitlint运行');
+
 module.exports = {
   parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {
