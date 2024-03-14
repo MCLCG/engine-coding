@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 . "${0%/*}/h"
 
-npx commitlint --edit $1
+# 格式:feat(a): b c d setup
+npx commitlint --edit 
